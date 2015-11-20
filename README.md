@@ -4,6 +4,7 @@
  - [ ] Render the result as a list
  - [ ] Make list items clickable linking to a detail view of the venue.
  - [ ] Add a map to the detail view with a marker indicating the venues position.
+ - [ ] Bonus make the detail view editable (there is a /:id endpoint for PUT)
 
 We expect that you will spend ~4 hours on this assignment.
 
