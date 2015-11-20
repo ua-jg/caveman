@@ -1,4 +1,4 @@
-# caveman
+# Caveman
 
  - [ ] Fetch a list of venues from endpoint.
  - [ ] Render the result as a list
