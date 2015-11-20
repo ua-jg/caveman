@@ -21,7 +21,7 @@ We estimate that you will spend ~4 hours on this assignment.
  - Preferably use these libs:
  - `whatwg-fetch` for fething stuff
  - `react-google-maps` for rendering the map
- - We use the javascript styleguide that was (outlined by Airbnb)[https://github.com/airbnb/javascript]
+ - We use the javascript styleguide that was [outlined by Airbnb](https://github.com/airbnb/javascript)
  - This README is intentionally light on info as to not limit the scope of the assignment. However, as ever when the project requirements are too light, we want you to request more information where needed. 
 
 ## Turning it in
