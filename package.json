@@ -1,0 +1,34 @@
+{
+  "name": "caveman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"We appreciate tests\"",
+    "backend": "node backend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniversalAvenue/caveman.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Daniel Werthén @ Universal Avenue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UniversalAvenue/caveman/issues"
+  },
+  "engines": {
+    "node": "4.1.1"
+  },
+  "homepage": "https://github.com/UniversalAvenue/caveman#readme",
+  "dependencies": {
+    "body-parser": "1.14.1",
+    "express": "4.13.3",
+    "react": "0.14.3",
+    "react-dom": "0.14.3",
+    "react-google-maps": "4.4.1",
+    "whatwg-fetch": "0.10.1"
+  }
+}
