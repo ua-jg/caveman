@@ -7,7 +7,8 @@
 
 ## Hints
 
-Use plain css or inline styles to make it look nice. (Add a style guide to this?)
-Preferably use these libs:
-`whatwg-fetch` for fething stuff
-`react-google-maps` for rendering the map
+ - Use plain css or inline styles to make it look nice.
+ - Preferably use these libs:
+ - `whatwg-fetch` for fething stuff
+ - `react-google-maps` for rendering the map
+ - This README is intentionally light on info as to not limit the scope of the assignment. However, as ever when the project requirements are too light, we want you to request more information where needed. 
