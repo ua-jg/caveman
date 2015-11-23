@@ -1,19 +1,12 @@
 import React, { Component } from 'react';
 import Link from 'react-router';
 
-
-
 export default class VenueItem extends Component {
   
-	
 	constructor(props) {
-    	super(props);
-      const {id, name, address, city, country, revenue } = props;
-    	this.state = { id, name, address, city, country, revenue };
-  	}
-
-  componentDidMount () {
-		
+  	super(props);
+    const {id, name, address, city, country, revenue } = props;
+  	this.state = { id, name, address, city, country, revenue };
   }
 
   render() {
@@ -30,8 +23,8 @@ export default class VenueItem extends Component {
 }
 
 var venueItem = {
-  "fontFamily": "Helvetica",
-  "fontSize": "12px",
+  fontFamily: "Helvetica",
+  fontSize: "12px",
 };
 
 var field = {
@@ -45,5 +38,5 @@ var name = {
   width: "120px",
   display: "inline-block",
   height: "40px",
-  "fontSize": "16px"
+  fontSize: "16px"
 };

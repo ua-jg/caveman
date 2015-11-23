@@ -5,21 +5,21 @@ import Store from '../stores/Venues';
 export default class VenueList extends Component {
   
 	constructor(props) {
-    	super(props);
-    	this.state = {
-    		venues: []
-    	};
-  	}
+    super(props);
+  	this.state = {
+  		venues: []
+  	};
+	}
 
-  	componentDidMount () {
+  componentDidMount () {
 		Store.listen(this.onStoreChange.bind(this));
-  	}
+  }
 
-  	onStoreChange(state) {
-  		this.setState({
-  			venues: state.venues
-  		});
-  	}
+  onStoreChange(state) {
+  	this.setState({
+  		venues: state.venues
+  	});
+  }
 
   render() {
   	const venues = this.state.venues.map((venue) => {
@@ -31,6 +31,7 @@ export default class VenueList extends Component {
   			country={venue.country}
   			revenue={venue.revenue} />;
   	});
+    
     return (
       <div>
       	{venues}

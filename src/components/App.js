@@ -4,12 +4,12 @@ import { RouteHandler, Link } from 'react-router';
 
 export default class App extends Component {
 
-  render() {
-    return (
-      <div>
-        <RouteHandler/>
-      </div>
-    );
-  }
+	render() {
+    	return (
+      		<div>
+        		<RouteHandler/>
+      		</div>
+    	);
+  	}
 }
 

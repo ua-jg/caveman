@@ -1,9 +1,5 @@
 jest.dontMock('../../stores/Venues');
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import TestUtils from 'react-addons-test-utils';
-
 const Store = require('../../stores/Venues');
 
 describe('Venues Store', () => {
@@ -24,7 +20,7 @@ describe('Venues Store', () => {
 
     describe('getVenue', () => {
 
-      it('returns empty object', () => {
+      it('returns venue matching the id', () => {
 
       });
       
@@ -32,5 +28,4 @@ describe('Venues Store', () => {
 
   });
   
-
 });
